@@ -13,7 +13,8 @@ unsigned int _strspn(char *s, char *accept)
 	value = 0;
 
 	for (i = 0; s[i] != '\0'; i++)
-	{	check = o;
+	{
+		check = 0;
 
 		for (n = 0; accept[n] != '\0'; n++)
 		{
